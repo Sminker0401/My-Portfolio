@@ -8,7 +8,48 @@ background-color:bisque;
 }
 header {
     padding: 50px;
-    font-family: Georgia;
+    font-family:'Courier New', Courier, monospace;
     color:bisque;
     background-color:darkslategray;
+    font-size: 25px;
+}
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px; 
+}
+header nav ul {
+    list-style-type: none;
+}
+header nav ul li {
+    display:inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color:bisque;
+    text-decoration:underline;
+
+}
+p {
+    font-size: 20px;
+    
+}
+main {
+    width: 100%;
+    display: inline-block;
+    margin-top: 50px;
+}
+.about-me, .my-portfolio, .contact-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 350px;
+    font-family:'Courier New', Courier, monospace;
+    background-color:darkslategray;
+    color:bisque;  
+}
+.about-me img, .my-portfolio img, .contact-me img {
+    max-height: 200px;
 }
