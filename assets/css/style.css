@@ -7,6 +7,9 @@ body {
 background-color:bisque;    
 }
 header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 50px;
     font-family:'Courier New', Courier, monospace;
     color:bisque;
@@ -24,7 +27,7 @@ header nav ul {
     list-style-type: none;
 }
 header nav ul li {
-    display:inline-block;
+
     margin-left: 25px;
 }
 
@@ -34,13 +37,16 @@ a {
 
 }
 p {
+
     font-size: 20px;
     
 }
 main {
-    width: 100%;
-    display: inline-block;
-    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px
+    
 }
 .about-me, .contact-me, .my-portfolio {
     margin-bottom: 20px;
