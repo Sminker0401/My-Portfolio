@@ -43,7 +43,6 @@ a {
 section {
     padding: 20px;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     align-items: left;
 }
@@ -57,6 +56,12 @@ main {
     padding: 50px;
     margin: auto;
 }  
+img {
+    display: block;
+    max-width: 250px;
+    align-items: flex-end;
+
+}
 
 
 .about-me {
@@ -75,8 +80,11 @@ main {
     background-color:lightpink;  
 } 
 
-.text {
-    inline-size: 500px;
-    float: right;
+
+#text {
+    inline-size: 300px;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
+    float: right;
+    
 }
