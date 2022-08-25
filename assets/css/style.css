@@ -5,17 +5,20 @@
     margin: 0;
     }
 body {
-backround-color:bisque;  
+    background-color: bisque; 
 }
 header {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     justify-content: space-between;
     padding: 50px;
     font-family:'Courier New', Courier, monospace;
-    background-color:darkslategray;
-    color: var(--main-text-color);
+    background;
+    color:bisque;
     font-size: 25px;
+    background-image: url("../images/clouds.png");
+    background-size: cover;
+    background-position: center;
 }
 header nav {
     padding-top: 15px;
@@ -37,39 +40,48 @@ a {
     text-decoration:underline;
 
 }
+
 p {
-
+    display:flex;
+    color:bisque;
     font-size: 20px;
-
     
+
 }
+.h-box {
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+    background-color: lightpink;
+}
+.h-box ul {
+    display:flex;
+    list-style-type: none;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: space-around;
+    line-height: 10;
+}
+
 main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 50px
+    padding: 50px;
     
 }
-.about-me, .contact-me, .my-portfolio {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 350px;
+
+.about-me {
+    display:flex;
+    align-items: flex-end;
+    margin-left: 350px;
     font-family:'Courier New', Courier, monospace;
     background-color:darkslategray;
     color:bisque;  
-}
 
-img {
-    max-height: 200px;
-    float: left;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 @media screen and (max-width: 992px) {
     p {
-      width: 25%;
+      width: 50%;
     }
 }
