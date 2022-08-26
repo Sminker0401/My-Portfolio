@@ -36,12 +36,13 @@ header nav ul li {
 
     margin-left: 25px;
 }
-
+/*html semantic tag to link the nav bar to the according sections*/
 a {
     color: var(--main-color);
     text-decoration:underline;
 
 }
+/* text about me section*/
 p {
     display:flex;
     flex-wrap: wrap;
@@ -49,6 +50,7 @@ p {
     font-size: 30px;
     color:rgb(100, 98, 98)
 }
+/*headers for about me, my portfolio, and contact me*/
 section {
     padding: 20px;
     display: flex;
@@ -71,11 +73,13 @@ main {
     padding: 50px;
     margin: auto;
 }  
+/*image of myself*/
 img {
     display: flex;
     flex-wrap: wrap;
     max-width: 250px;
 }
+/*images of my current deployed work*/
 figure {
     display:flex;
     flex-wrap: wrap;
@@ -88,6 +92,7 @@ figure {
     margin: 0.5em;
     padding: 0.5em;
   }
+  /*actual contact infomation*/
 aside ul {
     list-style-type:none;
     display: flex;
