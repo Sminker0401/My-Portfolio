@@ -38,7 +38,7 @@ header nav ul li {
 }
 
 a {
-    color:bisque;
+    color: var(--main-color);
     text-decoration:underline;
 
 }
@@ -65,9 +65,10 @@ main {
     margin: auto;
 }  
 img {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     max-width: 250px;
-    align-items: flex-end;
+    
 
 }
 
@@ -91,9 +92,12 @@ img {
 
 #one, #two {
     flex-direction: row;
-    justify-content: space-between;
-    max-width: 250px;
-    margin-left: 50px;
+    justify-content: space-evenly;
+    max-width: 300px;
+    margin-left: 100px;
+    font-size: 18;
+    font-family: 'Courier New', Courier, monospace ;
+    color: dimgray;
     
 
 }
