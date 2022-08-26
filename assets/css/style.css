@@ -42,7 +42,14 @@ a {
     text-decoration:underline;
 
 }
-
+p {
+    display:flex;
+    flex-wrap: wrap;
+    inline-size: 900px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:rgb(100, 98, 98)
+}
 section {
     padding: 20px;
     display: flex;
@@ -69,7 +76,34 @@ img {
     flex-wrap: wrap;
     max-width: 250px;
 }
+figure {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-style: bold;
+    font-size: 20px;
+    text-indent: 0;
+    border: thick rgb(99, 99, 99) solid;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+aside ul {
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightpink;
+}
 
+aside ul li {
+    
+    font-size: 35px;
+    font-family:'Courier New', Courier, monospace ;
+    color:dimgrey;
+    font-weight: bolder;
+    
+}
 
 .about-me {
     font-size: 35px;
@@ -83,14 +117,11 @@ img {
     background-color:rgb(99, 98, 98);  
 }
 .contact-me {
-    flex-direction: row;
-    justify-content: space-between;
     font-size: 35px;
     color: rgb(99, 98, 98);
-    background-color:lightpink; 
-    padding: 50px; 
-    margin-left: 350px;
-    margin-right: 350px;
+    background-color:lightpink;
+    padding-top: 50px;
+    padding-bottom: 50px;
     
 } 
 
@@ -104,19 +135,15 @@ img {
     color: dimgray;
     }
 
-#text {
-    
-    inline-size: 1000px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    color:rgb(100, 98, 98)
-    
-}
 @media screen and (max-width: 800px) {
     section {
         
         
         flex-direction: column;
         
+}
+    figure {
+        flex-direction: column;
     }
+    
 }
