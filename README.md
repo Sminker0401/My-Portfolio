@@ -10,11 +10,14 @@ I showcased my understanding of HTML semantic tags, CSS design aspects such as f
 
 below are screen shots of the working site and the repo
 
-https://user-images.githubusercontent.com/110298751/186811922-ac6d14e2-7774-48a3-bc6e-4db1ffc04b24.png Live site screen shot
+![live site](assets/images/screenshot.png)
 
-https://user-images.githubusercontent.com/110298751/186812052-aa93b453-980f-4fb5-86fb-8eaa4cd2ab73.png Repo screen shot
+![repo shot](assets/images/repo.png)
+
 
 below are the links to the working site and my repo
-https://github.com/Sminker0401/My-Portfolio
+
 
 https://sminker0401.github.io/My-Portfolio/
+
+https://github.com/Sminker0401/My-Portfolio
